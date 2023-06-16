@@ -21,10 +21,10 @@ function validaCPF() {
   const digito1 = calcularDigitoVerificador(cpf, 1);
   const digito2 = calcularDigitoVerificador(cpf, 2);
 
-  if (!digito1 && digito2) {
-    mostraResultado(`O CPF ${cpfFormatado} é inválido.`, "red");
+  if (digito1 && digito2) {
+    mostraResultado(`O CPF ${cpfFormatado} é válido.`, "green");
   }else {
-      mostraResultado(`O CPF ${cpfFormatado} é válido`, "green");
+      mostraResultado(`O CPF ${cpfFormatado} é inválido`, "red");
     }
   }
 
