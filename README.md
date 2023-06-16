@@ -1,4 +1,4 @@
-# Programa de Estágio em Programação Teknisa 2023
+# Programa de Estágio em Programação Teknisa 2023.
 
 Creation of CPF validator using JavaScript, HTML, CSS.
 
