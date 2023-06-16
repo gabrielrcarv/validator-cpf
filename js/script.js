@@ -19,20 +19,14 @@ function validaCPF() {
   }
 
   const digito1 = calcularDigitoVerificador(cpf, 1);
-
-  if (!digito1) {
-    mostraResultado(`O CPF ${cpfFormatado} é inválido.`, "red");
-    return;
-  }
-
   const digito2 = calcularDigitoVerificador(cpf, 2);
 
-  if (!digito2) {
+  if (!digito1 && digito2) {
     mostraResultado(`O CPF ${cpfFormatado} é inválido.`, "red");
-    return;
+  }else {
+      mostraResultado(`O CPF ${cpfFormatado} é válido`, "green");
+    }
   }
-  mostraResultado(`O CPF ${cpfFormatado} é válido`, "green");
-}
 
 function calcularDigitoVerificador(cpf, posicao) {
   const sequencia = cpf.slice(0, 8 + posicao).split("");
