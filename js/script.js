@@ -24,7 +24,7 @@ function validaCPF() {
   if (digito1 && digito2) {
     mostraResultado(`O CPF ${cpfFormatado} é válido.`, "green");
   }else {
-      mostraResultado(`O CPF ${cpfFormatado} é inválido`, "red");
+      mostraResultado(`O CPF ${cpfFormatado} é inválido.`, "red");
     }
   }
 

@@ -28,6 +28,8 @@ body {
   padding: 3px 10px;
   text-transform: uppercase;
   transition: background-color 0.7s;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .btValidar:hover {
@@ -39,6 +41,17 @@ body {
   margin: 25px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.box{
+  background-color: #D3D3D3;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 50vh;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px #696969
 }
 
 
