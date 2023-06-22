@@ -1,5 +1,3 @@
-# Programa de Estágio em Programação Teknisa 2023.
-
 Creation of CPF validator using JavaScript, HTML, CSS.
 
 Documentation link: [https://documenter.getpostman.com/view/28019788/2s93sjT8SV](https://documenter.getpostman.com/view/28019788/2s93sjT8SV)
